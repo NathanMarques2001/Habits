@@ -21,7 +21,7 @@ Instalação
 Para instalar e executar a aplicação, siga os seguintes passos:
 
 Clone este repositório para sua máquina local
-git clone https://github.com/your-username/habits-tracker.git
+git clone https://github.com/NathanMarques2001/Habits.git
 Acesse a pasta do aplicativo
 cd habits-tracker
 Instale as dependências
