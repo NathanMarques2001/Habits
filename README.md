@@ -1,23 +1,25 @@
 # Habits
 
 > ### Readme em construção...
-Habits Tracker
 Este é um aplicativo para controlar seus hábitos diários, permitindo adicionar, concluir, editar e excluir hábitos. O progresso do seu dia é visualizado através de pequenos quadrados que ficam cada vez mais fortes à medida que você conclui seus hábitos, assim como os commits do Github.
 
-Tecnologias usadas
-Typescript
-ReactJS para Web
-React Native para Mobile
-Prisma para o banco de dados
-NodeJS para o back-end
+> ## Tecnologias usadas
 
-Funcionalidades
-Adicionar hábitos
-Concluir hábitos
-Editar hábitos
-Excluir hábitos
-Ver o progresso dos hábitos de cada dia
-Instalação
+- Typescript
+- ReactJS para Web
+- React Native para Mobile
+- Prisma para o banco de dados
+- NodeJS para o back-end
+
+> ## Funcionalidades
+
+- Adicionar hábitos
+- Concluir hábitos
+- Editar hábitos
+- Excluir hábitos
+- Ver o progresso dos hábitos de cada dia
+
+> ## Instalação
 Para instalar e executar a aplicação, siga os seguintes passos:
 
 Clone este repositório para sua máquina local
@@ -29,7 +31,7 @@ npm install
 Execute a aplicação
 npm start
 
-Rotas
+> ## Rotas
 Para iniciar o servidor, você precisa seguir os seguintes passos:
 
 Instale as dependências do projeto, executando o comando npm install na pasta do projeto.
@@ -40,5 +42,5 @@ GET /day: Essa rota é utilizada para obter a lista de hábitos possíveis para 
 PATCH /habits/:id/toggle: Essa rota é utilizada para alternar o estado de um hábito realizado ou não realizado. Ela recebe o ID do hábito como parâmetro na URL.
 GET /summary: Essa rota é utilizada para obter um resumo geral dos hábitos realizados e possíveis para cada dia.
 
-Contato
+> ## Contato
 nathanbrandao1@gmail.com
