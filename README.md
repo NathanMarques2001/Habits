@@ -1,7 +1,5 @@
 # Habits
 
-> ### Readme em construção...
-
 Este é um aplicativo para controlar seus hábitos diários, permitindo adicionar, concluir, editar e excluir hábitos. O progresso do seu dia é visualizado através de pequenos quadrados que ficam cada vez mais fortes à medida que você conclui seus hábitos, assim como os commits do Github.
 
 > ## Tecnologias usadas
@@ -39,6 +37,7 @@ npm install
 ```
 
 > ## Servidor
+
 Para iniciar o servidor, você precisa seguir os seguintes passos:
 
 1. Acesse a pasta do servidor
@@ -55,20 +54,12 @@ npm start
 
 Após o servidor estar rodando, você pode acessar as seguintes rotas:
 
-- ```
-/habits
-``` - POST - Essa rota é utilizada para criar um novo hábito.
-- ```
-/day
-``` - GET - Essa rota é utilizada para obter a lista de hábitos possíveis para um dia especificado na requisição.
+- `/habits` - POST - Essa rota é utilizada para criar um novo hábito.
+- `/day` - GET - Essa rota é utilizada para obter a lista de hábitos possíveis para um dia especificado na requisição.
 
-- ```
-/summary
-``` - GET - Essa rota é utilizada para obter um resumo geral dos hábitos realizados e possíveis para cada dia.
+- `/summary` - GET - Essa rota é utilizada para obter um resumo geral dos hábitos realizados e possíveis para cada dia.
 
-- ```
-/habits/:id/toggle
-``` - PATCH - Essa rota é utilizada para alternar o estado de um hábito realizado ou não realizado.
+- `/habits/:id/toggle` - PATCH - Essa rota é utilizada para alternar o estado de um hábito realizado ou não realizado.
 
 > ## Contato
 nathanbrandao1@gmail.com
